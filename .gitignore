@@ -1,0 +1,4 @@
+.idea
+meteors/
+node_modules/
+lerna-debug.log
