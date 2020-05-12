@@ -1,7 +1,7 @@
 Monoreposaurus
 ==============
 
-Step 5
+Step 6
 -------
 
 Where are we? 
@@ -10,12 +10,11 @@ Where are we?
  * We can start to build our website
  
 What are we going to do? 
- * Add index.html in `/apps/site/src`
- * Express'yo'self
- * Check out package dev scripts 
-    * Scoping and running and streaming in lerna
- * Add something fun to sunglasses
- * Get the build to work
- * Render masterpiece
- * SEO
- * Profit
+ * Run webpack
+ * Explore running npm scripts & Lerna scopes
+ * Check out our masterpiece
+ * Debug sunglasses
+ * Add a new app called `web`
+    * Add 3rd party dependencies
+    * Add Bongos and Sunglasses to this app as dependencies
+    * Setup some dev script 
