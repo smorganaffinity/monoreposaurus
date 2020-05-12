@@ -1,23 +1,21 @@
 Monoreposaurus
 ==============
 
-Step 3
+Step 5
 -------
 
 Where are we? 
- * We have some actual packages in existence
- * We have an app for a super cool website we're thinking about
- * We got some abstractions for bongos and sunglasses
+ * Packages exist and are linked to each other
+ * We can install and things should fit together relatively well
+ * We can start to build our website
  
 What are we going to do? 
- * Add a dependency with lerna to link our abstractions
-    * `npx lerna add bongos --scope=site --dev`
- * Check out Bongos source code (hard checked in to dist)
-    * package.json directs source to `dist/bongos.js`
-    * Typically there would be a build process to generate this file
- * Create `apps/site/src/index.js` file
-    * `import {Bongos} from Bongos` 
-    * Bongos is a function, so we can just call it. `Bongos()`
- * Create a dist file for sunglasses
- * Add sunglasses to site
-        
+ * Add index.html in `/apps/site/src`
+ * Express'yo'self
+ * Check out package dev scripts 
+    * Scoping and running and streaming in lerna
+ * Add something fun to sunglasses
+ * Get the build to work
+ * Render masterpiece
+ * SEO
+ * Profit
