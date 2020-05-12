@@ -1,21 +1,23 @@
 Monoreposaurus
 ==============
 
-Step 2
+Step 3
 -------
 
 Where are we? 
- * The most basic of a mega-monorepo
-    * apps = deployable concretions
-    * packages = abstractions
+ * We have some actual packages in existence
+ * We have an app for a super cool website we're thinking about
+ * We got some abstractions for bongos and sunglasses
  
 What are we going to do? 
- * Create a new package called site in apps
-    * `npx lerna create site --es-module --yes` (defaults to apps)
-    * index.html setup 
-    * Add bundle serving for site through `dev` package script
- * Create a new ES module
-    * Bongo `npx lerna create bongos packages --es-module --yes` (targeted destination)
-    * Cool Shades (?)
- * 
-    
+ * Add a dependency with lerna to link our abstractions
+    * `npx lerna add bongos --scope=site --dev`
+ * Check out Bongos source code (hard checked in to dist)
+    * package.json directs source to `dist/bongos.js`
+    * Typically there would be a build process to generate this file
+ * Create `apps/site/src/index.js` file
+    * `import {Bongos} from Bongos` 
+    * Bongos is a function, so we can just call it. `Bongos()`
+ * Create a dist file for sunglasses
+ * Add sunglasses to site
+        
