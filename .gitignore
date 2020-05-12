@@ -2,4 +2,4 @@
 meteors/
 node_modules/
 lerna-debug.log
-apps/site/htdocs
+apps/*/htdocs
