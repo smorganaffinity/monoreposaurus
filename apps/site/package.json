@@ -1,0 +1,34 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "site",
+    "website",
+    "client"
+  ],
+  "author": "Steve Morgan <smorgan@affinity.co>",
+  "homepage": "http://saurus-rules-mammal-drools.com",
+  "license": "ISC",
+  "main": "lib/site.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "rsync -r src/ htdocs && webpack && http-server ./htdocs",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "bongos": "^0.0.0",
+    "sunglasses": "^0.0.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}

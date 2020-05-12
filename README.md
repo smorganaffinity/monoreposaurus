@@ -1,23 +1,21 @@
 Monoreposaurus
 ==============
 
-Step 1
+Step 2
 -------
 
 Where are we? 
- * Have a project folder tracking along with git repository
- * We have little arms
+ * The most basic of a mega-monorepo
+    * apps = deployable concretions
+    * packages = abstractions
  
 What are we going to do? 
- * Initialize npm ecosystem
- * Initialize lerna monorepo
- * Create & configure apps
-
-Do the Dew: 
-* `yarn init -y && npx lerna init`
-* `yarn` - Because lerna just added itself to `package.json`
-* Configure some basic lerna stuff in `lerna.json`
-    * Create a directory `./apps` and set it in packages
-    * set `npmClient` to yarn
-* `touch .gitignore` and put things in it
-* `npx lerna run test` to validate CLI and lerna with a quick expected failure
+ * Create a new package called site in apps
+    * `npx lerna create site --es-module --yes` (defaults to apps)
+    * index.html setup 
+    * Add bundle serving for site through `dev` package script
+ * Create a new ES module
+    * Bongo `npx lerna create bongos packages --es-module --yes` (targeted destination)
+    * Cool Shades (?)
+ * 
+    
