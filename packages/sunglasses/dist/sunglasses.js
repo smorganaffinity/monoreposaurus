@@ -1,4 +1,5 @@
 export default () => {
+  console.log('v1.0.0');
 // dots is an array of Dot objects,
 // mouse is an object used to track the X and Y position
   // of the mouse, set with a mousemove event listener below
