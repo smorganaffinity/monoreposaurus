@@ -1,6 +1,6 @@
 {
   "name": "site",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "keywords": [
     "site",
@@ -19,7 +19,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "bongos": "^0.0.0",
+    "bongos": "^1.0.0",
     "sunglasses": "0.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",

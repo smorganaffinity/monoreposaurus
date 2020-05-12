@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
   "author": "Steve Morgan <smorgan@affinity.co>",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/smorganaffinity/monoreposaurus#readme",
   "devDependencies": {
-    "bongos": "^0.0.0",
+    "bongos": "^1.0.0",
     "sunglasses": "^1.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
